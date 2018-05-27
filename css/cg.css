@@ -1,0 +1,158 @@
+ .header-container {
+  display: flex;
+  flex-direction: row;
+justify-content: space-between;
+  border-bottom: 2px solid #000;
+  padding: 2.3em 0;
+}
+
+nav .class {
+  margin-left: 5%;
+}
+
+nav {
+  margin: 1.5em 0 0 5%;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+nav ul li {
+  padding: 0 1.4em 0 0;
+  font-size: 0.9em;
+}
+
+header ul li a {
+  text-decoration: none;
+  border-bottom: none /*2px solid #000000 */;
+  color: #7D7C7D;
+}
+
+li a.active {
+  color: #000000;
+
+  font-weight: 300;
+}
+
+/*teacher page */
+#teachers {
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+
+}
+
+.container1t, .container2t, .container3t, .container4t, .container5t {
+ display: flex;
+ margin-top: 80px;
+  width: 400px;
+  height: 100%;
+  border: solid 1px #4757FF;
+  flex-flow: row wrap;
+}
+
+.top-box1t, .top-box2t, .top-box3t, .top-box4t, .top-box5t {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid #4757FF;
+  margin: 15px;
+  }
+
+.bottom-left1t, .bottom-right1t, .bottom-left2t, .bottom-right2t,.bottom-left3t, .bottom-right3t, .bottom-left4t, .bottom-right4t, .bottom-left5t, .bottom-right5t {
+  height: 100px;
+  width: 50%;
+  }
+
+
+  p {
+    text-align: center;
+      }
+/*students page */
+ #students {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px auto;
+ width: 1000px;
+}
+
+.container1s, .container2s, .container3s  {
+  display: flex;
+  width: 80%;
+  height: 100%;
+  border: solid 1px;
+  border-color: #4757FF;
+  margin-right: 15px;
+ flex-flow: row wrap;
+}
+.top-box1s, .top-box2s, .top-box3s, .top-box4s, .top-box5s,  {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid #4757FF;
+  margin: 15px;
+  }
+
+  .bottom-left1s, .bottom-right1s, .bottom-left2s, .bottom-right2s, .bottom-left3s, .bottom-right3s,  {
+    height: 150px;
+    width: 50%;
+  }
+
+.bottom-left1s p, .bottom-left2s p, .bottom-left3s p {
+  text-align: right;
+  font-weight: bold;
+}
+
+img {
+  border-radius: 50%;
+  float: left;
+  margin-left: 5px;
+
+}
+
+.name, .major, .subject {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*courses page */
+#courses {
+  display: flex;
+flex-flow: row wrap;
+  justify-content: space-around;
+
+  }
+
+  .container1, .container2, .container3, .container4, .container5  {
+    display: flex;
+    width: 40%;
+    height: 100%;
+    border: solid 1px;
+    border-color: #4757FF;
+    margin-top: 50px;
+  }
+
+  .box1, .box2, .box3, .box4, .box5  {
+    width: 35%;
+    height: 100px;
+    border-right: 1px solid #4757FF;
+    flex-flow: row wrap;
+
+  }
+
+    .left1, .right1, .left2, .right2, .left3, .right3, .left4, .right4, .left5, .right5 {
+      height: 100px;
+      width: 20%;
+      text-align: center;
+    }
+
+  .course1, .course2  {
+     text-align: center;
+     margin-top: 20px;
+   }
+
+  .left1 p, .left2 p, .left3 p, .left4 p, .left5 p, .course2 {
+  font-weight: bold;
+  }
